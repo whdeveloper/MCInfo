@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/news"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.04"
+            android:text="@string/empty" />
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.04"
+            android:text="@string/empty" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.04"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/survival1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/survival1name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s1" />
+
+                <ImageView
+                    android:id="@+id/s1onoffi"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="0.11"
+                    android:contentDescription="@string/onoffdescr"
+                    android:src="@android:drawable/presence_offline" />
+
+                <TextView
+                    android:id="@+id/s1onofft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="@string/soff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/survival2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/survival2name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s2" />
+
+                <ImageView
+                    android:id="@+id/s2onoffi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:contentDescription="@string/onoffdescr"
+                    android:src="@android:drawable/presence_offline" />
+
+                <TextView
+                    android:id="@+id/s2onofft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="0.0"
+                    android:text="@string/soff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/creative1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/creativename"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="@string/s3" />
+
+                <ImageView
+                    android:id="@+id/c1onoffi"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:contentDescription="@string/onoffdescr"
+                    android:src="@android:drawable/presence_offline" />
+
+                <TextView
+                    android:id="@+id/c1onofft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="@string/soff" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.1"
+        android:gravity="bottom|center"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/empty2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/empty" />
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/empty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/empty" />
+
+        <TextView
+            android:id="@+id/vraagmelding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/isonoff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom|center" >
+
+
+
+
+
+            <Spinner
+                android:id="@+id/delay"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/delaynames"
+                android:prompt="@string/delay" />
+
+            <ToggleButton
+                android:id="@+id/meldingjanee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tb" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

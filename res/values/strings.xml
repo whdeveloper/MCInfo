@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WHD Server info</string>
+    <string name="isonoff">Melding bij online komen van een server?</string>
+    <string name="empty"></string>
+    <string name="soff"> Server Offline</string>
+    <string name="s1">WHD Survival  1: </string>
+    <string name="s2">WHD Survival  2: </string>
+    <string name="s3">WHD Creative 1: </string>
+    <string name="onoffdescr">This image displays if the server is online or offline</string>
+    <string name="tb">ToggleButton</string>
+    <string name="delay">Hoeveel tijd moet er tussen het scannen van de servers zitten?</string>
+    <string-array name="delaynames">
+        <item name="vijftienmin">15 min</item>
+        <item name="dertigmin">30 min</item>
+        <item name="eenuur">1 uur</item>
+        <item name="tweeuur">2 uur</item>
+        <item name="drieuur">3 uur</item>
+        <item name="vijfuur">5 uur</item>
+    </string-array>
+</resources>
